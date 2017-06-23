@@ -1,6 +1,6 @@
 FactoryGirl.define do
   factory :dragon do
-      name "Trogdor"
+      # name "Balerion"
     # name { ["Trogdor", "Heraxes"].sample }
     # sequence(:name) { |num| "Dragon #{num}" }
     # appetite "Small"
@@ -13,4 +13,12 @@ FactoryGirl.define do
     #   age 500
     #   appetite 'Large'
   end
+
+  # factory :dragon do
+  #     name "Trogdor"
+  #
+  #
+  #
+  # end
+
 end
