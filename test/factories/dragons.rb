@@ -6,19 +6,15 @@ FactoryGirl.define do
     # appetite "Small"
     # age { (1..100).to_a.sample }
 
-    # rider
+    rider
 
     #grouping
     # trait :ancient do
     #   age 500
     #   appetite 'Large'
   end
-
   # factory :dragon do
   #     name "Trogdor"
-  #
-  #
-  #
   # end
 
 end

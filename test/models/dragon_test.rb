@@ -56,8 +56,8 @@ class DragonTest < ActiveSupport::TestCase
 
   def test_that_the_right_rider_can_mount
     # use your knowledge of factories to make this test pass!
-    # owner = rider(:dragon)
-    # dragon = build(:dragon)
+    owner = build(:rider, name: "Aegon")
+    dragon = build(:dragon, name: "Balerion")
 
     # not allowed to change the assert statement!
     skip unless owner && dragon
