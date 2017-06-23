@@ -1,5 +1,6 @@
 FactoryGirl.define do
   factory :rider do
-    # name "Rhaenys"
+    nickname "The Conqueror"
+    email { "#{name}@westeros.com" }
   end
 end
